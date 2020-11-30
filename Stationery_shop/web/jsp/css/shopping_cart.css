@@ -1,0 +1,218 @@
+*{
+				margin: 0;
+				padding: 0;
+}
+div.top
+{
+    height: 150px;
+    /*border: 1px solid red;*/
+}
+div.nav
+{
+    height: 20px;
+    background: gainsboro;
+}
+div.nav ul li
+{
+    float: left;
+    list-style: none;
+}
+div.nav ul li a
+{
+    font-size:13px; color: gray;
+    display:block;
+    width: 60px;
+    outline:0;
+    text-decoration: none;
+    text-align: center;
+}
+a.nav1
+{
+    margin-left: 10px;
+}
+li.nav2
+{
+    margin-left: 30px;
+    font-size: 13px;
+}
+a.nav3
+{
+    margin-left: 700px;
+}
+a.nav4
+{
+    margin-left: 30px;
+}
+a.nav5
+{
+    margin-left: 30px;
+}
+a.nav6
+{
+    margin-left: 30px;
+}
+div.nav ul li a:hover
+{
+    color: red;
+    text-decoration: underline;
+    background: white;
+}
+div.nav ul li:hover .dropdown_1column
+{
+    left:1150px;
+    top:15px;
+}
+div.dropdown_1column
+{ /* 下拉菜单边框颜色*/
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    border: 1px solid darkgray;
+    border-top: none;
+    background: white;
+    width: 80px;
+}
+div.nav li:hover div a
+{ /* 下拉菜单文字颜色*/
+    font-size:12px;color:#444;
+}
+
+div.nav li:hover div a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+/*下拉带单鼠标停留*/
+div.nav li ul
+{
+    list-style:none;
+	padding:10px 5px;
+    margin:0;
+}
+div.nav li ul li
+{
+    font-size:12px;
+    line-height:26px;
+    position:relative;
+    padding:0;
+	margin:0;
+    float:none;
+    text-align:left;
+    width:130px;
+}
+div.nav li ul li:hover
+{
+    background:none;
+    border:none;
+	padding:0;
+    margin:0;
+}
+div.content{
+	width: 90%;
+	margin: 0 auto;
+}
+div.title_nav{
+	width: 100%;
+	border-bottom: 0.5px solid #D3D3D3;
+}
+div.title_nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+div.title_nav ul li{
+	font-size: 18px;
+	font-weight: bold;
+}
+div.shopping{
+	display: flex;
+	white-space: 90%;
+	flex-wrap: wrap;
+	border-bottom: 0.5px solid #D3D3D3;
+}
+div.picture{
+	width: 12%;
+	height: 150px;
+	border: 1px solid #7FFFD4;
+}
+div.describe{
+	width: 85%;
+	height: 150px;
+}
+div.describe ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+div.describe ul li{
+	margin-top: 55px;
+	list-style: none;
+}
+li.number{
+	margin-left: -150px;
+}
+li.number input{
+	width: 15px;
+	height: 20px;
+	text-align: right;
+}
+li.delete{
+	margin-right: -40px;
+}
+li.delete button{
+	width: 50px;
+	height: 25px;
+	border: none;
+	background-color: #FF0000;
+}
+.floot{
+	margin-left: 20px;
+}
+.floot1 ul{
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.floot1 ul li{
+	list-style: none;
+	margin-right: 10px;
+}
+.floot1 ul li a{
+	text-decoration: none;
+	color: #A9A9A9;
+	font-size: 12px;
+}
+.floot1 ul li a:hover{
+	color: #444444;
+	text-decoration: underline;
+}
+.floot1 ul li a img{
+	filter:brightness(60%);
+}
+.floot1 ul li a img:hover{
+	filter:brightness(100%);
+}
+.floot2 ul{
+	width: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.floot2 ul li{
+	list-style: none;
+	margin-right: 10px;
+}
+
+.floot2 ul li a img{
+	filter:brightness(60%);
+}
+.floot2 ul li a img:hover{
+	filter:brightness(100%);
+}

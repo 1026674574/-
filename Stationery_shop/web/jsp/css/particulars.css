@@ -1,0 +1,349 @@
+*{
+				margin: 0;
+				padding: 0;
+}
+div.top
+{
+    height: 150px;
+    /*border: 1px solid red;*/
+}
+div.nav
+{
+    height: 20px;
+    background: gainsboro;
+}
+div.nav ul li
+{
+    float: left;
+    list-style: none;
+}
+div.nav ul li a
+{
+    font-size:13px; color: gray;
+    display:block;
+    width: 60px;
+    outline:0;
+    text-decoration: none;
+    text-align: center;
+}
+a.nav1
+{
+    margin-left: 10px;
+}
+li.nav2
+{
+    margin-left: 30px;
+    font-size: 13px;
+}
+a.nav3
+{
+    margin-left: 700px;
+}
+a.nav4
+{
+    margin-left: 30px;
+}
+a.nav5
+{
+    margin-left: 30px;
+}
+a.nav6
+{
+    margin-left: 30px;
+}
+div.nav ul li a:hover
+{
+    color: red;
+    text-decoration: underline;
+    background: white;
+}
+div.nav ul li:hover .dropdown_1column
+{
+    left:1150px;
+    top:15px;
+}
+div.dropdown_1column
+{ /* 下拉菜单边框颜色*/
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    border: 1px solid darkgray;
+    border-top: none;
+    background: white;
+    width: 80px;
+}
+div.nav li:hover div a
+{ /* 下拉菜单文字颜色*/
+    font-size:12px;color:#444;
+}
+
+div.nav li:hover div a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+/*下拉带单鼠标停留*/
+div.nav li ul
+{
+    list-style:none;
+	padding:10px 5px;
+    margin:0;
+}
+div.nav li ul li
+{
+    font-size:12px;
+    line-height:26px;
+    position:relative;
+    padding:0;
+	margin:0;
+    float:none;
+    text-align:left;
+    width:130px;
+}
+div.nav li ul li:hover
+{
+    background:none;
+    border:none;
+	padding:0;
+    margin:0;
+}
+.content{
+	width: 100%;
+	/* height: 1500px; */
+}
+.store_logo{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	
+}
+.store{
+	display: flex;
+	margin-left: 20px;
+	margin-top: -100px;
+}
+div.store ul
+{
+    float: left;
+    list-style: none;
+}
+div.store ul li
+{
+    width: 300px;
+    height: 40px;
+    padding-top: 10px;
+}
+div.store ul li a
+{
+    text-decoration: none;
+}
+a.one
+{
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 1px dashed darkgrey;
+}
+a.two
+{
+    padding-left: 10px;
+    color: lightgray;
+}
+span
+{
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+div.store ul li:hover .wai
+{
+    left: 100px;
+    top: 150px;
+}
+div.wai
+{ /* 下拉菜单边框颜色*/
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    border: 1px solid darkgray;
+    background: white;
+    width: 200px;
+}
+div.wuliu ul li
+{
+    list-style: none;
+    margin-left: 5px;
+    font-size: 12px;
+    color: gainsboro;
+}
+ul.pinfen li:hover a
+{
+    text-decoration: underline;
+}
+span.heng
+{
+    margin-left: 15px;
+}
+a.shuzi
+{
+    color: darkblue;
+    margin-left: 5px;
+}
+a.fuhao
+{
+    color: gainsboro;
+}
+div.search
+{
+    margin-left: 100px;
+    margin-top: 45px;
+    width: 430px;
+    height:40px;
+    float: left;
+    background: red;
+    border:1px solid red ;
+}
+div.search input.search1
+{
+    width: 350px;
+    height: 30px;
+    border: 1px solid red;
+    margin-left: 5px;
+}
+div.search input.button
+{
+    background: red;
+    color: white;
+    width:68px;
+    height: 40px;
+    border: 1px solid red;
+}
+div.search2
+{
+    margin-left: 10px;
+    margin-top: 45px;
+    float: left;
+    width: 68px;
+    height:40px;
+    border: 1px solid black;
+}
+div.search2 input.button1
+{
+    background: black;
+    color: white;
+    width:68px;
+    height: 40px;
+    border: 1px solid black;
+}
+div.puzi
+{
+    height: 160px;
+    background: gainsboro;
+}
+div.dian
+{
+    width: 980px;
+    height: 130px;
+    margin: 0 auto;
+    /*background-image: url("前端素材/dianbg.jpg");*/
+    background: ghostwhite;
+    /*border: 1px solid red;*/
+}
+div.dian h1
+{
+    padding-top: 50px;
+    margin-left: 40px;
+}
+div.dian_nav
+{
+    height: 30px;
+    width: 980px;
+    background: gray;
+    margin: 0 auto;
+}
+div.dian_nav ul li
+{
+    float: left;
+    list-style: none;
+    padding: 5px 15px;
+}
+div.dian_nav ul li:hover
+{
+    background: black;
+}
+div.dian_nav ul li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+div.main{
+	display: flex;
+	width: 100%;
+}
+div.picture{
+	width: 40%;
+	height: 900px;
+	border: 1px solid red;
+}
+div.describe{
+	width: 60%;
+	height: 900px;
+	border: 1px solid red;
+}
+.floot{
+	margin-left: 20px;
+}
+.floot1 ul{
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.floot1 ul li{
+	list-style: none;
+	margin-right: 10px;
+}
+.floot1 ul li a{
+	text-decoration: none;
+	color: #A9A9A9;
+	font-size: 12px;
+}
+.floot1 ul li a:hover{
+	color: #444444;
+	text-decoration: underline;
+}
+.floot1 ul li a img{
+	filter:brightness(60%);
+}
+.floot1 ul li a img:hover{
+	filter:brightness(100%);
+}
+.floot2 ul{
+	width: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.floot2 ul li{
+	list-style: none;
+	margin-right: 10px;
+}
+
+.floot2 ul li a img{
+	filter:brightness(60%);
+}
+.floot2 ul li a img:hover{
+	filter:brightness(100%);
+}
